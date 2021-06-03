@@ -28,6 +28,7 @@
     padding-top: .5rem;
     overflow-x: hidden;
     overflow-y: auto;
+    border: 1px solid #F5F5F5;
   }
   .logo-link{
     display: flex;
@@ -35,7 +36,7 @@
     align-content: center;
     height: 45px;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 25px;
   }
   .logo-text{
     color: #7367f0;
@@ -44,10 +45,10 @@
     font-size: 1.15rem;
     padding: 0 10px;
   }
-  .img-wrap{
+  /* .img-wrap{
     height: 30px;
     width: 45px;
-  }
+  } */
   .btn-primary,
   .btn-primary:hover,
   .btn-primary:active,

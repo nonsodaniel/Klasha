@@ -10,11 +10,12 @@
   
 
   .nav-item{
-    padding-bottom: 1rem;
+    padding-bottom: .9rem;
   }
     .nav-link{
       color: #625f6e;
       font-size: 17px;
+      padding: .8rem 1rem;
     }
     .nav-link:hover{
       color: var(--bg-primary);

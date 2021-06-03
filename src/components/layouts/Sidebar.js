@@ -3,6 +3,9 @@ import "./Sidebar.css";
 import "./Navbar.css";
 import {mainPages, general} from '../layouts/sidebarList'
 import logo from '../assets/logo.svg'
+import dashboard from '../assets/dashboard.svg'
+import balance from '../assets/balance.svg'
+import customers from '../assets/customers.svg'
 const Sidebar = () => {
   return (
     <nav className="col-md-2 side-bar p-0">
@@ -13,8 +16,30 @@ const Sidebar = () => {
           </span>
         </Link>
         <ul className=" list-wrap flex-row-sm">
-          {mainPages.map((items) => {
-            return (
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/dashboard">
+                  <span>
+               <img  src={dashboard}/>
+                  </span>{" "}
+                  <span>Dashboard</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/dashboard">
+                <span>
+               <img  src={balance}/>
+                  </span>{" "}
+                  <span>Balances</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/dashboard">
+                <span>
+               <img  src={customers}/>
+                  </span>{" "}
+                  <span>Customers</span>
+                </NavLink>
+              </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/dashboard">
                   <span>
@@ -34,35 +59,11 @@ const Sidebar = () => {
                       <polyline points="9 22 9 12 15 12 15 22"></polyline>
                     </svg>
                   </span>{" "}
-                  <span>Dashboard</span>
+                  <span>Analytics</span>
                 </NavLink>
               </li>
-            );
-          })}
 
-          {/* <li className="nav-item">
-            <NavLink className="nav-link" to="/">
-              <span>
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="10px"
-                  height="14px"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="feather feather-user"
-                >
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </span>{" "}
-            </NavLink>
-          </li> */}
-        </ul>
+      </ul>
       </div>
     </nav>
   );

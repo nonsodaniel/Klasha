@@ -1,6 +1,18 @@
 :root{
     --bg-primary: #F5F5F5;
 }
+body {
+    font-family: 'MyWebFont', Fallback, sans-serif;
+  }
+
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('./components//assets/fonts/SpaceGrotesk-Bold.otf') format('otf'),
+    url('./components//assets/fonts/SpaceGrotesk-Light.otf') format('otf'),
+    url('./components//assets/fonts/SpaceGrotesk-Medium.otf') format('otf'),
+  }
+
+
 main{
     background-color: white;
 }
