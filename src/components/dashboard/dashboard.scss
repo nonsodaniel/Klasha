@@ -1,0 +1,56 @@
+.list__items{
+    border: 1px solid red;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.list__items:nth-child(1){
+    margin-right: 12px;
+    background: #F5F5F5;
+    border: none;
+}
+
+.payout-filter{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter__form{
+    display: flex;
+
+    .search__wrap{
+        margin-right: 15px;
+    }
+    .date__wrap{
+        margin-right: 30px;
+    }
+    .search, .filter__date{
+        width: 300px;
+        height: 42px;
+        background: #FFFFFF;
+        border: 1px solid #EBEBEB;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    .filter__date{
+        width: 117px;
+        height: 42px;
+    }
+    .btn__payout{
+        width: 104px;
+        height: 42px;
+        background: #3D8F83;
+        border-radius: 4px;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (max-width: 980px){
+    .sidebar-sticky {
+      height: 100%;
+  }
+}
