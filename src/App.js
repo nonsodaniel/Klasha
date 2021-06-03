@@ -14,7 +14,7 @@ const App = () => {
             <main role="main" className="col-md-10 main">
               <Switch>
                 <Route exact path="/" component={Dashboard} />
-                <Route exact path="/dashboard" component={Dashboard} />
+                <Route exact path="/balances" component={Dashboard} />
               </Switch>
             </main>
           </div>

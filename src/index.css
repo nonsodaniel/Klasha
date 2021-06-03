@@ -10,6 +10,7 @@ body {
     src:  url('./components//assets/fonts/SpaceGrotesk-Bold.otf') format('otf'),
     url('./components//assets/fonts/SpaceGrotesk-Light.otf') format('otf'),
     url('./components//assets/fonts/SpaceGrotesk-Medium.otf') format('otf'),
+    url('./components//assets/fonts/SpaceGrotesk-Regular.otf') format('otf'),
   }
 
 
@@ -18,7 +19,4 @@ main{
 }
 .borderless th {
     border: none;
-}
-.borderless td {
-    padding-bottom: 1rem;
 }

@@ -8,23 +8,25 @@
     padding: 2rem;
   }
   
-
   .nav-item{
     padding-bottom: .9rem;
   }
     .nav-link{
-      color: #625f6e;
-      font-size: 17px;
-      padding: .8rem 1rem;
-    }
-    .nav-link:hover{
-      color: var(--bg-primary);
-      font-size: 17px;
-      transition: 1ms ease-in-out;
-    }
-  .nav-link.active{
-    background: #fff;
+      font-size: 14px;
+      line-height: 16.8px;
+      padding: .8rem 2rem;
       color: #A6ABB2;
-      /* box-shadow: 0 0 10px 1px rgb(115 103 240 / 70%); */
-      /* border-radius: 4px; */
+    }
+    .list__title{
+      padding: .8rem 2rem;
+    }
+  
+  /* .nav-link.active{
+    background: #F5F5F5;
+      color: #A6ABB2;
   }
+  .nav-link:hover{
+    background: white;
+    color: #2A2A2A;
+    transition: 1ms ease-in-out;
+  } */

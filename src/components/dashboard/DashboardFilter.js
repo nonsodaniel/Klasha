@@ -3,7 +3,7 @@ import React from "react";
 const DashboardFilter = () => {
   return (
     <div className="payout-filter">
-      <h6>Payout table</h6>
+      <h5 className="payout__text">Payout table</h5>
       <div className="search-wrap">
         <form className="filter__form">
           <div className="form-group search__wrap">

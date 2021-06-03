@@ -1,3 +1,14 @@
+.bals__text, .payout__text{
+    color: #2A2A2A;
+    font-weight: 600;
+}
+.bals__date{
+    color: #A6ABB2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
 .list__items{
     border: 1px solid red;
     height: 45px;
@@ -12,7 +23,6 @@
 }
 
 .payout-filter{
-    margin: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +43,13 @@
         border: 1px solid #EBEBEB;
         box-sizing: border-box;
         border-radius: 4px;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #A6ABB2;
+    }
+    .search::placeholder{
+        color: #A6ABB2;
     }
     .filter__date{
         width: 117px;
@@ -45,6 +62,24 @@
         border-radius: 4px;
         color: white;
     }
+}
+
+.table-wrap{
+    margin-top: 1.5rem;
+}
+
+.borderless td {
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21.6px;
+    padding-top: 40px;
+    padding-bottom: 22px;
+
+}
+.thead{
+    background: #F5F5F5;
+    line-height: 42px;
 }
 
 
