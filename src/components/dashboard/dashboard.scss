@@ -1,7 +1,7 @@
 .dashboard-header{
     justify-content: space-between;
-}
 
+//Dashboard header
 .avatar__link, .notif__link{
     display: flex;
     justify-content: center;
@@ -29,9 +29,9 @@
     font-weight: 400;
 }
 
-
 .list__items{
-    border: 1px solid red;
+    background: rgba(255, 131, 119, 0.1);
+    border: 1px solid #FF8377;
     height: 45px;
     width: 45px;
     border-radius: 50%;
@@ -42,12 +42,17 @@
     background: #F5F5F5;
     border: none;
 }
+}
 
+
+
+//Filter section
 .payout-filter{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+
+//Filter section
 .filter__form{
     display: flex;
 
@@ -101,23 +106,35 @@
     }
 }
 
+}
+
+//table
+
+.table:nth-last-child(){
+    border-color: transparent;
+}
 .table-wrap{
     margin-top: 1.5rem;
+
+    .borderless td {
+        padding-bottom: 1rem;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 21.6px;
+        padding-top: 40px;
+        padding-bottom: 22px;
+    
+    }
+    .thead{
+        background: #F5F5F5;
+        line-height: 42px;
+    }
+    tr:hover{
+        border: 1px solid red;
+    }
+
 }
 
-.borderless td {
-    padding-bottom: 1rem;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 21.6px;
-    padding-top: 40px;
-    padding-bottom: 22px;
-
-}
-.thead{
-    background: #F5F5F5;
-    line-height: 42px;
-}
 
 
 

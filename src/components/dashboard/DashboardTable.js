@@ -2,7 +2,7 @@ import React from "react";
 
 const DashboardTable = () => {
   return (
-    <div className="table-wrap">
+    <div className="table-wrap table-hover">
       <div className="table-responsive ">
         <table className="table borderless">
           <thead className="thead">
