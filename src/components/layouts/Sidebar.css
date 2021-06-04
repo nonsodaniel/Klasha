@@ -23,7 +23,7 @@
     border-radius: .428rem;
     position: -webkit-sticky;
     position: sticky;
-    top: 6px; /* Height of navbar */
+    top: 6px;
     height: 100vh;
     padding-top: .5rem;
     overflow-x: hidden;
@@ -36,7 +36,7 @@
     align-content: center;
     height: 45px;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .logo-text{
     color: #7367f0;
@@ -45,19 +45,16 @@
     font-size: 1.15rem;
     padding: 0 10px;
   }
-  /* .img-wrap{
-    height: 30px;
-    width: 45px;
-  } */
-  .btn-primary,
-  .btn-primary:hover,
-  .btn-primary:active,
-   .btn-primary:focus  {
-    background-color: var(--bg-primary);
-    border: 1px solid var(--bg-primary);
-  }
-  .btn-primary:hover{
-    box-shadow: 0 8px 25px -8px #7367f0;
+
+
+
+  @media only screen and (max-width: 950px){
+
+
+.left-header{
+  text-align: center;
+}
+
   }
 
   @media only screen and (max-width: 768px){
@@ -67,7 +64,7 @@
   .side-bar .list-wrap{
     flex-direction: row ;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .logo-link{
     justify-content: center;

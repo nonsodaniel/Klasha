@@ -1,9 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import notification from "../assets/Notification.svg";
+import avatar from "../assets/avatar.svg";
 
 const DashboardHeader = () => {
   return (
-    <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+    <div className="d-flex dashboard-header flex-wrap flex-md-nowrap align-items-center pb-2 mb-3">
       <div className="left-header">
         <h5 className="bals__text">Balances</h5>
         <p className="bals__date">Today, 19th October 2020</p>
@@ -11,11 +12,15 @@ const DashboardHeader = () => {
 
       <div className="right-header">
         <ul className="d-flex">
-          <li className="list__items">
-            <Link></Link>
+          <li className="list__items"> 
+            <Link className="notif__link" to="#">
+                <img src={notification} className="notif__img" alt="Notification icon" />
+            </Link>
           </li>
           <li className="list__items">
-            <Link></Link>
+            <Link className="avatar__link" to="#">
+                  <img src={avatar} className="avatar__img" alt="User Avatar" />
+            </Link>
           </li>
         </ul>
       </div>

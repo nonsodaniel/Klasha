@@ -1,7 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import "./Navbar.css";
-import {mainPages, general} from '../layouts/sidebarList'
 import logo from '../assets/logo.svg'
 import dashboard from '../assets/dashboard.svg'
 import balance from '../assets/balance.svg'
@@ -17,7 +16,7 @@ const Sidebar = () => {
       <div className="sidebar-sticky">
         <Link className="logo-link" to="#">
           <span className="img-wrap">
-            <img src={logo} alt="Company Logos" />
+            <img src={logo} alt="Company Logos"/>
           </span>
         </Link>
         <ul className=" list-wrap flex-row-sm">
@@ -25,7 +24,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={dashboard} />
+                <img src={dashboard} alt="sidebar__icon"/>
               </span>{" "}
               <span>Dashboard</span>
             </Link>
@@ -33,7 +32,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="/balances">
               <span>
-                <img src={balance} />
+                <img src={balance} alt="sidebar__icon"/>
               </span>{" "}
               <span>Balances</span>
             </NavLink>
@@ -41,7 +40,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={customers} />
+                <img src={customers} alt="sidebar__icon"/>
               </span>{" "}
               <span>Customers</span>
             </Link>
@@ -75,7 +74,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={settings} />
+                <img src={settings} alt="sidebar__icon"/>
               </span>{" "}
               <span>Settings</span>
             </Link>
@@ -83,7 +82,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="/balances">
               <span>
-                <img src={team} />
+                <img src={team} alt="sidebar__icon"/>
               </span>{" "}
               <span>Team</span>
             </NavLink>
@@ -91,7 +90,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={call} />
+                <img src={call} alt="sidebar__icon"/>
               </span>{" "}
               <span>Contact</span>
             </Link>
@@ -99,7 +98,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
             <span>
-                <img src={logout} />
+                <img src={logout} alt="sidebar__icon"/>
               </span>{" "}
               <span>Logout</span>
             </Link>

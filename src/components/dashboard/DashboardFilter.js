@@ -1,4 +1,5 @@
 import React from "react";
+import searchIcon from "../assets/Search.svg";
 
 const DashboardFilter = () => {
   return (
@@ -9,11 +10,14 @@ const DashboardFilter = () => {
           <div className="form-group search__wrap">
             <input
               type="text"
-              className="form-control search"
-              id="exampleInputEmail1"
+              className="form-control search__input"
+              id="search"
               aria-describedby="emailHelp"
               placeholder="Search something..."
             />
+            <span className="search__icon">
+               <img src={searchIcon} alt="searc-icon" />
+            </span>
           </div>
           <div className="form-group date__wrap">
             <input
