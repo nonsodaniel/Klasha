@@ -22,8 +22,10 @@ const DashboardTable = () => {
                 </tr>
               );
             })}
+       
           </tbody>
         </table>
+        <div className="see-more">See more</div>
       </div>
     </div>
   );

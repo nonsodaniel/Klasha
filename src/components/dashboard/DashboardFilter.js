@@ -16,7 +16,7 @@ const DashboardFilter = () => {
               placeholder="Search something..."
             />
             <span className="search__icon">
-               <img src={searchIcon} alt="searc-icon" />
+              <img src={searchIcon} alt="searc-icon" />
             </span>
           </div>
           <div className="form-group date__wrap">
@@ -28,7 +28,7 @@ const DashboardFilter = () => {
             />
           </div>
           <button type="submit" className="btn btn__payout">
-            Submit
+            Payout
           </button>
         </form>
       </div>
