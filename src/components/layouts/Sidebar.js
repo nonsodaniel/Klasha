@@ -22,6 +22,7 @@ const Sidebar = () => {
           </span>
         </Link>
       </div>
+      <div className="list-container">
       <ul className=" list-wrap flex-row-sm">
         <li className="list__title">Main pages</li>
         <li className="nav-item">
@@ -107,7 +108,9 @@ const Sidebar = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    
+      </div>
+     </div>
   
       {/* <SideBarItem /> */}
     </nav>
