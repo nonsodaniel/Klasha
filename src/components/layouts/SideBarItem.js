@@ -1,5 +1,4 @@
-import "./Sidebar.css";
-import "./Navbar.css";
+import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import dashboard from "../assets/dashboard.svg";
@@ -10,17 +9,18 @@ import team from "../assets/team.svg";
 import call from "../assets/Call.svg";
 import logout from "../assets/Logout.svg";
 
-
-const Sidebar = () => {
+const SideBarItem = () => {
   return (
-    <nav className="col-md-2 side-bar mobile p-0">
-         <div className="sidebar-sticky">
+    <div className="sidebar-sticky">
       <div className="top-wrap">
         <Link className="logo-link" to="#">
           <span className="img-wrap">
             <img src={logo} alt="Company Logos" />
           </span>
         </Link>
+        <span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </span>
       </div>
       <ul className=" list-wrap flex-row-sm">
         <li className="list__title">Main pages</li>
@@ -108,10 +108,7 @@ const Sidebar = () => {
         </li>
       </ul>
     </div>
-  
-      {/* <SideBarItem /> */}
-    </nav>
   );
 };
 
-export default Sidebar;
+export default SideBarItem;

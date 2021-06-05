@@ -4,6 +4,7 @@
     z-index: 12;
   }
 
+
   .main-content{
     padding: 2rem;
   }
@@ -31,4 +32,19 @@
       padding: .8rem 2rem;
       font-weight: 600;
     }
+  
+
+
+    @media only screen and (max-width: 900px){
+        /* .side-bar.mobile{
+          position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .top-wrap{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    } */
+  }
   
