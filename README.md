@@ -1,5 +1,5 @@
 
-Runs the app in the production mode.\
+Run the app in the production mode using [Live Demo](https://github.com/nonsodaniel/Klasha).
 
 
 # Getting Started with Create React App
