@@ -125,9 +125,7 @@
 
 //table
 
-.table:nth-last-child{
-    border-color: transparent;
-}
+
 .table-wrap{
     margin-top: 1.5rem;
 
@@ -258,7 +256,9 @@
 .see-more{
     padding: .7rem 0;
     text-align: center;
-    border: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
     color: #2C665D;
     font-weight: 600;
 }

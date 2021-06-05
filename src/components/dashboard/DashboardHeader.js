@@ -14,7 +14,7 @@ const DashboardHeader = () => {
         <ul className="d-flex list-wrap">
           <li className="list__items">
             <Link className="notif__link" to="#">
-              <span class="notif__rounded"></span>
+              <span className="notif__rounded"></span>
               <img
                 src={notification}
                 className="notif__img"

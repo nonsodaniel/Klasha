@@ -2,7 +2,7 @@ const DashboardTable = () => {
   return (
     <div className="table-wrap table-hover">
       <div className="table-responsive ">
-        <table className="table borderless">
+        <table className="table borderless m-0">
           <thead className="thead">
             <tr>
               <th>Payout ID</th>
@@ -12,7 +12,7 @@ const DashboardTable = () => {
             </tr>
           </thead>
           <tbody>
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((_data) => {
+            {[1, 2, 3, 4].map((_data) => {
               return (
                 <tr key={Math.random()}>
                   <td>KLA12578DHQ</td>
@@ -22,7 +22,6 @@ const DashboardTable = () => {
                 </tr>
               );
             })}
-       
           </tbody>
         </table>
         <div className="see-more">See more</div>

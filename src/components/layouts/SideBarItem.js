@@ -19,7 +19,7 @@ const SideBarItem = () => {
           </span>
         </Link>
         <span>
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i className="fa fa-bars" aria-hidden="true"></i>
         </span>
       </div>
       <ul className=" list-wrap flex-row-sm">
