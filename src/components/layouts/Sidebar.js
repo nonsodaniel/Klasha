@@ -16,15 +16,15 @@ const Sidebar = () => {
       <div className="sidebar-sticky">
         <Link className="logo-link" to="#">
           <span className="img-wrap">
-            <img src={logo} alt="Company Logos"/>
+            <img src={logo} alt="Company Logos" />
           </span>
         </Link>
         <ul className=" list-wrap flex-row-sm">
-        <li className="list__title">Main pages</li>
+          <li className="list__title">Main pages</li>
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={dashboard} alt="sidebar__icon"/>
+                <img src={dashboard} alt="sidebar__icon" />
               </span>{" "}
               <span>Dashboard</span>
             </Link>
@@ -32,7 +32,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="/balances">
               <span>
-                <img src={balance} alt="sidebar__icon"/>
+                <img src={balance} alt="sidebar__icon" />
               </span>{" "}
               <span>Balances</span>
             </NavLink>
@@ -40,7 +40,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={customers} alt="sidebar__icon"/>
+                <img src={customers} alt="sidebar__icon" />
               </span>{" "}
               <span>Customers</span>
             </Link>
@@ -68,13 +68,13 @@ const Sidebar = () => {
             </Link>
           </li>
         </ul>
-     
-     <ul className=" list-wrap flex-row-sm">
-       <li className="list__title">General</li>
+
+        <ul className=" list-wrap flex-row-sm">
+          <li className="list__title">General</li>
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={settings} alt="sidebar__icon"/>
+                <img src={settings} alt="sidebar__icon" />
               </span>{" "}
               <span>Settings</span>
             </Link>
@@ -82,7 +82,7 @@ const Sidebar = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="/balances">
               <span>
-                <img src={team} alt="sidebar__icon"/>
+                <img src={team} alt="sidebar__icon" />
               </span>{" "}
               <span>Team</span>
             </NavLink>
@@ -90,21 +90,20 @@ const Sidebar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="#">
               <span>
-                <img src={call} alt="sidebar__icon"/>
+                <img src={call} alt="sidebar__icon" />
               </span>{" "}
               <span>Contact</span>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="#">
-            <span>
-                <img src={logout} alt="sidebar__icon"/>
+              <span>
+                <img src={logout} alt="sidebar__icon" />
               </span>{" "}
               <span>Logout</span>
             </Link>
           </li>
         </ul>
-     
       </div>
     </nav>
   );

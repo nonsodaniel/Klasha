@@ -1,5 +1,3 @@
-import React from "react";
-
 const DashboardTable = () => {
   return (
     <div className="table-wrap table-hover">

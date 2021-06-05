@@ -11,15 +11,20 @@ const DashboardHeader = () => {
       </div>
 
       <div className="right-header">
-        <ul className="d-flex">
-          <li className="list__items"> 
+        <ul className="d-flex list-wrap">
+          <li className="list__items">
             <Link className="notif__link" to="#">
-                <img src={notification} className="notif__img" alt="Notification icon" />
+              <span class="notif__rounded"></span>
+              <img
+                src={notification}
+                className="notif__img"
+                alt="Notification icon"
+              />
             </Link>
           </li>
           <li className="list__items">
             <Link className="avatar__link" to="#">
-                  <img src={avatar} className="avatar__img" alt="User Avatar" />
+              <img src={avatar} className="avatar__img" alt="User Avatar" />
             </Link>
           </li>
         </ul>

@@ -17,16 +17,18 @@
       padding: .8rem 2rem;
       color: #A6ABB2;
     }
+    .nav-link:hover{
+      background: #FFFFFF;
+      color: #A6ABB2;
+      transition: 2ms ease-in-out;
+    }
+   .nav-link.active {
+      background: #F5F5F5;
+      color: #2A2A2A;
+      font-weight: 600;
+    }
     .list__title{
       padding: .8rem 2rem;
+      font-weight: 600;
     }
   
-  /* .nav-link.active{
-    background: #F5F5F5;
-      color: #A6ABB2;
-  }
-  .nav-link:hover{
-    background: white;
-    color: #2A2A2A;
-    transition: 1ms ease-in-out;
-  } */

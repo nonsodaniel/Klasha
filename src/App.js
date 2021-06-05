@@ -10,7 +10,6 @@ const App = () => {
         <div className="container-fluid">
           <div className="row">
             <Sidebar />
-
             <main role="main" className="col-md-10 main">
               <Switch>
                 <Route exact path="/" component={Dashboard} />
